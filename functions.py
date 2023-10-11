@@ -30,7 +30,7 @@ def timeGetter():
 
 
 def apiGetter(name):
-    key = "4a2e500c2e63de0f0a3bc325483daf3a6453e4dcf83f51a9eafc96181a223195"
+    key = ""
     symbolslug = symbolSlug(name)
     name = symbolslug[1]
     url = "https://min-api.cryptocompare.com/data/price?fsym={}&tsyms=USD&api_key={}".format(
